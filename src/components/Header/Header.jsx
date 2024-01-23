@@ -1,5 +1,4 @@
-/* eslint-disable react/no-unknown-property */
-import "./Header.css";
+
 import { Carousel } from "@material-tailwind/react";
 
 const Header = () => {
