@@ -1,0 +1,42 @@
+[
+  {
+    "ld": 1,
+    "cover": "https://i.ibb.co/G59142p/image.jpg",
+    "title": "Fawayed e Makkia",
+    "author": "Qari Sheikh Abdur Rahman Makki (Rh.)",
+
+    "posted_date": "2024-01-23",
+
+    "hashtags": ["fawayed e makkiah", "abdur rahman makki", "fawayed makki"]
+  },
+  {
+    "ld": 2,
+    "cover": "https://i.ibb.co/MhGYDTN/ziaul.jpg",
+    "title": "Ziaul Qira'at",
+    "author": "Qari Sheikh zia uddin al azhari (Rh.)",
+
+    "posted_date": "2024-01-23",
+
+    "hashtags": ["zia", "ziaul", "ziaul qiraat"]
+  },
+  {
+    "ld": 3,
+    "cover": "https://i.ibb.co/0sqy4wC/USOOL-UT-TAJWEED.jpg",
+    "title": "Usolul tajweed part-1",
+    "author": "Qari Sheikh Abdur Rahman Makki (Rh.)",
+
+    "posted_date": "2024-01-23",
+
+    "hashtags": ["fawayed e makkiah", "abdur rahman makki", "fawayed makki"]
+  },
+  {
+    "ld": 4,
+    "cover": "https://i.ibb.co/XWtVSCg/usool.webp",
+    "title": "Usulul Tajweed part-2",
+    "author": "Qari Sheikh Abdur Rahman Makki (Rh.)",
+
+    "posted_date": "2024-01-23",
+
+    "hashtags": ["usulul tajweed", "abdur rahman makki", "fawayed makki"]
+  }
+]
