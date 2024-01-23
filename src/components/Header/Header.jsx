@@ -4,7 +4,7 @@ import { Carousel } from "@material-tailwind/react";
 const Header = () => {
   return (
     <>
-      <nav className="block w-full max-w-screen-xl px-4 py-2 mx-auto text-white bg-white border shadow-md rounded-xl border-white/80 bg-opacity-80 backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4">
+      <nav className="block w-full mb-20 max-w-screen-xl px-4 py-2 mx-auto text-white bg-white border shadow-md rounded-xl border-white/80 bg-opacity-80 backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4">
         <div className="container flex items-center justify-between mx-auto text-indigo-900">
           <a
             href="#"
