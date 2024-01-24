@@ -7,14 +7,12 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="">
-     <Header></Header>
-        <Books></Books>
-      <div className="flex justify-center">
-       
+      <Header></Header>
+      <Books></Books>
+      <div className="sm:flex sm:justify-center flex justify-center items-center">
         <Courses></Courses>
-      
-      </div>  
-      
+      </div>
+
       <Footer></Footer>
     </div>
   );

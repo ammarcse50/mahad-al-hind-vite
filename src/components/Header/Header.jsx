@@ -3,15 +3,15 @@ import { Carousel } from "@material-tailwind/react";
 const Header = () => {
   return (
     <>
-      <nav className="block w-full mb-20 max-w-screen-xl px-4 py-2 mx-auto text-white bg-white border shadow-md rounded-xl border-white/80 bg-opacity-80 backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4">
-        <div className="container flex items-center justify-between mx-auto text-indigo-900">
+      <nav className="block w-full mb-20 max-w-screen-xl px-4 py-2 mx-auto text-white bg-white border shadow-md rounded-xl border-white/80 bg-opacity-80 backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4 ">
+        <div className="container md:flex  md:items-center md:justify-between md:mx-auto  text-indigo-900 ">
           <a
-            href="#"
-            className="mr-4 block cursor-pointer py-1.5 font-sans text-base font-medium leading-relaxed text-inherit antialiased text-[20px] text-indigo-900"
+            href="#mahadulqiraat"
+            className="mr-4 block cursor-pointer py-1.5 font-sans text-base font-medium leading-relaxed text-inherit antialiased text-[20px] text-indigo-900 text-center"
           >
             Mahadul Qira'at Al Hind
           </a>
-          <div className="hidden lg:block">
+          <div className="flex justify-center lg:block">
             <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
               <li className="flex items-center p-1 font-sans text-sm antialiased font-medium text-bold text-primary leading-normal gap-x-2 ">
                 <a
@@ -42,15 +42,15 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div className="flex items-center gap-x-1">
+          <div className="flex items-center justify-center gap-x-1">
             <button
-              className="hidden px-4 py-2 font-sans text-xs font-bold text-center text-blue-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
+              className="px-4 py-2 font-sans text-xs font-bold text-center text-blue-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
               type="button"
             >
               <span>Log In</span>
             </button>
             <button
-              className="hidden select-none rounded-lg bg-gradient-to-tr text-blue-900 text-blue-500 py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-black shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
+              className="select-none rounded-lg bg-gradient-to-tr text-blue-900 text-blue-500 py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-black shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
               type="button"
             >
               <span>Sign in</span>
@@ -80,7 +80,7 @@ const Header = () => {
       </nav>
 
       {/* Carosel  */}
-      <div className="carousel w-full">
+      <div className="carousel lg:w-full sm:w-1/4">
   <div id="slide1" className="carousel-item relative w-full">
     <img src="https://i.ibb.co/PYgwYNh/LOCKNOW-INDIA-2.png" className="w-full" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

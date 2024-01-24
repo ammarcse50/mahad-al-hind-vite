@@ -4,7 +4,7 @@ const Courses = () => {
       <h2 className="text-[40px] mt-20 mb-20 text-primary stroke-blue-500 text-center">
         Courses Available
       </h2>
-      <div className="cards-container flex gap-9">
+      <div className="cards-container justify-center md:flex md:gap-9 space-y-5 ">
         {/* card-1  */}
 
         <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
