@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="bg-indigo-900">
+    <div className="bg-indigo-900 mt-10">
       <footer className="footer p-10  text-neutral-content">
         <aside>
           <h2 className="text-white font-bold">Mahadul Qira'at Al Hind</h2>

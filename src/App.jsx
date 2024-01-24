@@ -6,12 +6,16 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="w-full">
-      <Header></Header>
-      <Books></Books>
-      <Courses></Courses>
-        <Footer></Footer>
+    <div className="">
+     <Header></Header>
+        <Books></Books>
+      <div className="flex justify-center">
+       
+        <Courses></Courses>
       
+      </div>  
+      
+      <Footer></Footer>
     </div>
   );
 }

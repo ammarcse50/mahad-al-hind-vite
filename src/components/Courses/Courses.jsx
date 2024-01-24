@@ -1,7 +1,7 @@
 const Courses = () => {
   return (
     <div>
-      <h2 className="text-[40px] mt-20 mb-20 text-green-400 stroke-blue-500">
+      <h2 className="text-[40px] mt-20 mb-20 text-primary stroke-blue-500 text-center">
         Courses Available
       </h2>
       <div className="cards-container flex gap-9">

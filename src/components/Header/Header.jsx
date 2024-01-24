@@ -1,4 +1,3 @@
-
 import { Carousel } from "@material-tailwind/react";
 
 const Header = () => {
@@ -14,15 +13,15 @@ const Header = () => {
           </a>
           <div className="hidden lg:block">
             <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-              <li className="flex items-center p-1 font-sans text-sm antialiased font-medium leading-normal gap-x-2 ">
+              <li className="flex items-center p-1 font-sans text-sm antialiased font-medium text-bold text-primary leading-normal gap-x-2 ">
                 <a
                   href="#Home"
-                  className="flex items-center text-blue-900 text-[15px]"
+                  className="flex items-center text-blue-900  text-[15px]"
                 >
                   Home
                 </a>
               </li>
-              <li className="flex items-center p-1 font-sans text-sm antialiased font-medium leading-normal gap-x-2 text-blue-gray-900">
+              <li className="flex items-center p-1 font-sans text-sm antialiased font-medium leading-normal gap-x-2 text-blue-gray-900 ">
                 <a
                   href="#"
                   className="flex items-center text-blue-900 text-[15px]"
@@ -30,7 +29,7 @@ const Header = () => {
                   Reach Us
                 </a>
               </li>
-              <li className="flex items-center p-1 font-sans text-sm antialiased font-medium leading-normal gap-x-2 text-blue-gray-900">
+              <li className="flex items-center p-1 font-sans text-sm antialiased font-medium leading-normal gap-x text-bold  ">
                 <a
                   href="#"
                   className="flex items-center text-blue-900 text-[15px]"
@@ -38,7 +37,7 @@ const Header = () => {
                   Payment Method
                 </a>
               </li>
-              <li className="flex items-center p-1 font-sans text-sm antialiased font-medium leading-normal gap-x-2 text-blue-gray-900">
+              <li className="flex items-center p-1 font-sans text-sm antialiased font-medium leading-normal gap-x-2 text-blue-900">
                 <a href="#" className="flex items-center"></a>
               </li>
             </ul>
@@ -81,24 +80,31 @@ const Header = () => {
       </nav>
 
       {/* Carosel  */}
-
-      <Carousel classNameName="rounded-xl carousel">
-        <img
-          src="https://i.ibb.co/PYgwYNh/LOCKNOW-INDIA-2.png"
-          alt="image 1"
-          className="h-full w-full object-cover"
-        />
-        <img
-          src="https://i.ibb.co/PYgwYNh/LOCKNOW-INDIA-2.png"
-          alt="image 2"
-          className="h-full w-full object-cover img2"
-        />
-        <img
-          src="https://i.ibb.co/PYgwYNh/LOCKNOW-INDIA-2.png"
-          alt="image 3"
-          className="h-full w-full object-cover img3"
-        />
-      </Carousel>
+      <div className="carousel w-full">
+  <div id="slide1" className="carousel-item relative w-full">
+    <img src="https://i.ibb.co/PYgwYNh/LOCKNOW-INDIA-2.png" className="w-full" />
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide4" className="btn btn-circle">❮</a> 
+      <a href="#slide2" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide2" className="carousel-item relative w-full">
+    <img src="https://i.ibb.co/PYgwYNh/LOCKNOW-INDIA-2.png" className="w-full" />
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide1" className="btn btn-circle">❮</a> 
+      <a href="#slide3" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide3" className="carousel-item relative w-full">
+    <img src="https://i.ibb.co/PYgwYNh/LOCKNOW-INDIA-2.png" className="w-full" />
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" className="btn btn-circle">❮</a> 
+      <a href="#slide4" className="btn btn-circle">❯</a>
+    </div>
+  
+  
+  </div>
+</div>
     </>
   );
 };
