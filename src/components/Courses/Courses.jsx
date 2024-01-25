@@ -1,6 +1,6 @@
 const Courses = () => {
   return (
-    <div>
+    <div className="w-full">
       <h2 className="text-[40px] mt-20 mb-20 text-primary stroke-blue-500 text-center">
         Courses Available
       </h2>
