@@ -7,20 +7,20 @@ const Header = () => {
 
         <div className="mr-4">
           <ul className=" sm:flex gap-9">
-            <li>
+            <li className="transition-colors hover:text-blue-500 focus:text-blue-500">
               <a href="Home">Home</a>
             </li>
-            <li>
+            <li className="transition-colors hover:text-blue-500 focus:text-blue-500">
               <a href="">Courses</a>
             </li>
-            <li>
+            <li className="transition-colors hover:text-blue-500 focus:text-blue-500">
               <a href="">Contact</a>
             </li>
-            <li>
+            <li className="transition-colors hover:text-blue-500 focus:text-blue-500">
               <a href="">Login</a>
             </li>
-            <li>
-              <a href="">Signin</a>
+            <li className="transition-colors hover:text-blue-500 focus:text-blue-500">
+              <a href="">Sign in</a>
             </li>
           </ul>
         </div>

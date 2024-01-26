@@ -1,13 +1,12 @@
 [
   {
     "ld": 1,
-    "cover": "https://i.ibb.co/G59142p/image.jpg",
+    "cover": "https://i.ibb.co/kBvNDF2/fawawidmakkiyah-1.webp",
     "title": "Fawayed e Makkia",
     "author": "Qari Sheikh Abdur Rahman Makki (Rh.)",
 
     "posted_date": "2024-01-23",
-
-    "hashtags": ["fawayed e makkiah", "abdur rahman makki", "fawayed makki"]
+    "download_link": "https://drive.google.com/file/d/11JCgJbqSBSRGAyHmdlSmapzGWK0Nfkq5/view?usp=sharing"
   },
   {
     "ld": 2,
@@ -16,8 +15,7 @@
     "author": "Qari Sheikh zia uddin al azhari (Rh.)",
 
     "posted_date": "2024-01-23",
-
-    "hashtags": ["zia", "ziaul", "ziaul qiraat"]
+    "download_link": "http://s595909773.online-home.ca/KB/Zia-ul-%20Qiraat/WQ.pdf"
   },
   {
     "ld": 3,
@@ -26,8 +24,7 @@
     "author": "Qari Sheikh Abdur Rahman Makki (Rh.)",
 
     "posted_date": "2024-01-23",
-
-    "hashtags": ["fawayed e makkiah", "abdur rahman makki", "fawayed makki"]
+    "download_link": "https://archive.org/download/DarsENizamiMutafarriq/USOOL_UT_TAJWEED_01.pdf"
   },
   {
     "ld": 4,
@@ -36,7 +33,42 @@
     "author": "Qari Sheikh Abdur Rahman Makki (Rh.)",
 
     "posted_date": "2024-01-23",
+    "download_link": "https://www.mediafire.com/file/a3inbn9zs88qaw9/USOOL_UT_TAJWEED_02.pdf/file"
+  },
+  {
+    "ld": 5,
+    "cover": "https://i.ibb.co/Rz97xFZ/8d272d968-152306.jpg",
+    "title": "Esho Urdu Shikhi",
+    "author": "Abu Tahir Misbah",
 
-    "hashtags": ["usulul tajweed", "abdur rahman makki", "fawayed makki"]
+    "posted_date": "2024-01-23",
+    "download_link": "https://drive.google.com/file/d/11K7jsGzSgpflY4XhDA4AH5KR8Y4TrEH0/view?usp=sharing"
+  },
+  {
+    "ld": 6,
+    "cover": "https://i.ibb.co/NgqcKCW/al-tajwid-al-musawar-new-arabic-version-1-volume-with-qr-code-dr-ayman-suwaid-rules-for-reading-the.jpg",
+    "title": "Al-Tajwid Al-Musawar",
+    "author": "Dr. Ayman Suwaid",
+
+    "posted_date": "2024-01-23",
+    "download_link": "https://drive.google.com/file/d/12PbZvz8AhU47U0GHAH0Jk6b3zO-TGzHW/view?usp=sharing"
+  },
+  {
+    "ld": 7,
+    "cover": "https://i.ibb.co/gPT4yZ8/Jamalul-Quran-Urdu-Computer-Kaomi-Library-9bfc8-238035.jpg",
+    "title": "Jamalul Quran Bangla Version",
+    "author": "Ashraf Ali Thanobi Rh.",
+
+    "posted_date": "2024-01-23",
+    "download_link": "https://drive.google.com/file/d/11LmzHx7EHq_Seld-cH1rneKApN_Xacxs/view?usp=sharing"
+  },
+  {
+    "ld": 7,
+    "cover": "https://i.ibb.co/zmHSgPY/download-1.jpg",
+    "title": "Al_Bayanul_Mufeed",
+    "author": "Syaikh Ubaid Abdillah Sulaiman Al Jabiry",
+
+    "posted_date": "2024-01-23",
+    "download_link": "https://drive.google.com/file/d/12R8ZRkQmC3dGAkAZabGJ461MEkYj0KE-/view?usp=sharing"
   }
 ]
