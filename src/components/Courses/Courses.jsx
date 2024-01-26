@@ -12,7 +12,7 @@ const Courses = () => {
   }, []);
 
   return (
-       <> <h2 className="mt-6 font-bold text-4xl text-center">OUR COURSES</h2>  
+       <> <h2 className="mt-6 font-bold text-4xl  text-center">OUR COURSES</h2>  
         
       <div className="card_container mt-20 p-5 text-center md:grid md:grid-cols-2 md:gap-6 md:m-2  lg:grid-cols-4  space-x-6">  
            
