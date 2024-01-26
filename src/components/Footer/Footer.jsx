@@ -5,8 +5,8 @@ import { Typography } from "@material-tailwind/react";
 const Footer = () => {
   return (
     <div>
-      <footer className="w-full bg-blue-900  p-8">
-        <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 text-center md:justify-between">
+      <footer className="w-full bg-[#3949ab]  p-8">
+        <div className="flex flex-row flex-wrap mx-10 items-center justify-center gap-y-6 gap-x-12 text-center md:justify-between">
           <img
             src="https://i.ibb.co/WshBJnK/mahad-al-hind-logo.png"
             alt="logo-ct"
@@ -18,7 +18,7 @@ const Footer = () => {
                 as="a"
                 href="#"
                 color="blue-gray"
-                className="font-normal text-white transition-colors hover:text-blue-500 focus:text-blue-500"
+                className="font-normal text-lg text-white transition-colors hover:text-blue-500 focus:text-blue-500"
               >
                 About Us
               </Typography>
@@ -29,7 +29,7 @@ const Footer = () => {
                 as="a"
                 href="https://api.whatsapp.com/send?phone=919365262648&text=ww"
                 color="blue-gray"
-                className="font-normal text-white transition-colors hover:text-blue-500 focus:text-blue-500"
+                className="font-normal text-lg text-white transition-colors hover:text-blue-500 focus:text-blue-500"
               >
                 Contact Us
               </Typography>
