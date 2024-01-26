@@ -12,9 +12,13 @@ const Courses = () => {
   }, []);
 
   return (
-       <>
+       <>   <h2 className="mt-6 font-bold text-lg text-center">Famous Tajweed Books/Qitabs</h2>
       <div className="card_container mt-20 p-5 text-center md:grid md:grid-cols-2 md:gap-6 md:m-2  lg:grid-cols-4  space-x-6">  
-      
+           
+        
+             
+
+
       {courses.map(course => 
 
           <Course course={course}></Course>

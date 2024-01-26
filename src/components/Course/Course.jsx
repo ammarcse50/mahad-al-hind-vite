@@ -13,7 +13,7 @@ const Course = ({ course }) => {
 
   return (
     <>
-      <Card className="mt-6 mb-10 w-86">
+      <Card className=" mb-10 w-86">
         <CardHeader color="green" className="relative h-56 mt-6">
           <img src={cover} alt="card-image" width={400} />
         </CardHeader>
