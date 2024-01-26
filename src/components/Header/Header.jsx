@@ -2,7 +2,7 @@ import { Carousel } from "@material-tailwind/react";
 const Header = () => {
   return (
     <>
-      <div className="text-center h-20  sm:flex sm:justify-between sm:items-center bg-gray-900 text-white">
+      <div className="text-center lg:h-20  sm:flex sm:justify-between sm:items-center bg-gray-900 text-white">
         <h2 className="ml-4 text-blue-500 font-bold">Mahadul Qira'at Al Hind</h2>
 
         <div className="mr-4">
@@ -19,7 +19,7 @@ const Header = () => {
             <li className="transition-colors hover:text-blue-500 focus:text-blue-500">
               <a href="">Login</a>
             </li>
-            <li className="transition-colors hover:text-blue-500 focus:text-blue-500">
+            <li className="transition-colors hover:text-blue-500 focus:text-blue-500 ">
               <a href="">Sign in</a>
             </li>
           </ul>

@@ -9,7 +9,7 @@ import {
 } from "@material-tailwind/react";
 
 const Course = ({ course }) => {
-  const { cover, title, author,download_link } = course;
+  const { cover, title,contact,desc } = course;
 
   return (
     <>
@@ -21,12 +21,12 @@ const Course = ({ course }) => {
           <Typography variant="h5" color="blue-gray" className="mb-2">
             {title}
           </Typography>
-          <Typography>{author}</Typography>
+          <Typography>{desc}</Typography>
         </CardBody>
         <CardFooter className="pt-0 text-center">
-          <a href={download_link}>
+          <a href={contact}>
          
-            <Button>Download</Button>
+            <Button>Contact Us</Button>
           </a>
         </CardFooter>
       </Card>
