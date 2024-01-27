@@ -1,11 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
 import { Typography } from "@material-tailwind/react";
 
 const Footer = () => {
   return (
     <div>
-      <footer className="w-full bg-[#3949ab]  p-8">
+      <footer className="w-full bg-[#9c27b0]  p-8">
         <div className="flex flex-row flex-wrap mx-10 items-center justify-center gap-y-6 gap-x-12 text-center md:justify-between">
           <img
             src="https://i.ibb.co/WshBJnK/mahad-al-hind-logo.png"

@@ -10,10 +10,10 @@ import {
 } from "@material-tailwind/react";
 
 const Book = ({ book }) => {
-  const { cover, title,author,download_link} = book;
+  const { cover, title, author, download_link } = book;
   return (
     <div>
-       <Card className=" mb-10 w-86">
+      <Card className=" mb-10 w-86">
         <CardHeader color="green" className="relative h-56 mt-6">
           <img src={cover} alt="card-image" width={400} />
         </CardHeader>
@@ -21,11 +21,10 @@ const Book = ({ book }) => {
           <Typography variant="h5" color="blue-gray" className="mb-2">
             {title}
           </Typography>
-          <Typography>{author}</Typography>
+          <Typography overflow-x-auto>{author}</Typography>
         </CardBody>
         <CardFooter className="pt-0 text-center">
           <a href={download_link}>
-         
             <Button>Download</Button>
           </a>
         </CardFooter>

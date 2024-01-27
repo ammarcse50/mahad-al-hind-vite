@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Card,
   CardHeader,
@@ -9,7 +8,7 @@ import {
 } from "@material-tailwind/react";
 
 const Course = ({ course }) => {
-  const { cover, title,contact,desc } = course;
+  const { cover, title, contact, desc } = course;
 
   return (
     <>
@@ -25,7 +24,6 @@ const Course = ({ course }) => {
         </CardBody>
         <CardFooter className="pt-0 text-center">
           <a href={contact}>
-         
             <Button>Contact Us</Button>
           </a>
         </CardFooter>

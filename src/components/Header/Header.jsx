@@ -11,7 +11,7 @@ const Header = () => {
               <a href="Home">Home</a>
             </li>
             <li className="transition-colors hover:text-blue-500 focus:text-blue-500">
-              <a href="">Courses</a>
+              <a href="#Courses">Courses</a>
             </li>
             <li className="transition-colors hover:text-blue-500 focus:text-blue-500">
               <a href="">Contact</a>
