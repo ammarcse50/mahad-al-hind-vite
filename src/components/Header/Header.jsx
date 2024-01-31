@@ -27,7 +27,7 @@ const Header = () => {
       </div>
 
       {/* carousel  */}
-      <Carousel className="rounded-xl">
+      <Carousel className="rounded-xl ">
         <img
           src="https://i.ibb.co/PYgwYNh/LOCKNOW-INDIA-2.png"
           alt="image 1"
